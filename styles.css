@@ -770,13 +770,13 @@ html{
 
     .carrito{
         order: -1;
-        width: 100%;
-        max-width: 360px;
+        width: calc(100% - 30px);
+        max-width: 380px;
         margin: 0 auto 20px;
-        max-height: none;
         overflow-y:visible;
         padding: 16px;
         position: static;
+        box-sizing: border-box;
         
     }
 
@@ -808,6 +808,8 @@ html{
         flex-direction: column;
         padding: 15px;
         gap: 15px;
+        width: 100%;
+        box-sizing: border-box;
 
     }
 
