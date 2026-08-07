@@ -771,10 +771,9 @@ html{
     .carrito{
         order: -1;
         width: calc(100% - 30px);
-        max-width: 380px;
+        max-width: 320px;
         margin: 0 auto 20px;
-        overflow-y:visible;
-        padding: 16px;
+        padding: 12px;
         position: static;
         box-sizing: border-box;
         
